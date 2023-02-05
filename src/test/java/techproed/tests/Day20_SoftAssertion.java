@@ -5,7 +5,7 @@ import org.testng.annotations.Test;
 import org.testng.asserts.SoftAssert;
 
 public class Day20_SoftAssertion {
-    @Test
+    @Test (groups = "regression-tests")
     public void softAssertionTest() {
 
         // 1. Soft Assertion objesi oluştur

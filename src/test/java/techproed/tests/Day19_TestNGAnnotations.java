@@ -76,11 +76,11 @@ public class Day19_TestNGAnnotations {
     public void test4(){
         System.out.println("Test 4");
     }
-    @Test(priority = 2)
+    @Test(priority = 2,groups = "resgression-tests")
     public void test5(){
         System.out.println("Test 5");
     }
-    @Test(priority = -5)
+    @Test(priority = -5,groups = "regression-tests")
     public void test6(){
         System.out.println("Test 6");
     }

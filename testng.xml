@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="All Test Suite">
+    <test verbose="2" preserve-order="true"
+          name="C:/Users/GamePower/IdeaProjects/B103TestNGProject/src/test/java/techproed/tests/smoktetests">
+        <classes>
+            <class name="techproed.tests.smoktetests.Day22_HwNegative_3">
+                <methods>
+                    <include name="US100402_Negative_Login"/>
+                </methods>
+            </class>
+            <class name="techproed.tests.smoktetests.Day22_HwNegative_4">
+                <methods>
+                    <include name="US101122_Negative_Login"/>
+                </methods>
+            </class>
+            <class name="techproed.tests.smoktetests.Day22_HwNegative_5">
+                <methods>
+                    <include name="US101201_Negative_Login"/>
+                </methods>
+            </class>
+            <class name="techproed.tests.smoktetests.Day22_NegativeLoginTest">
+                <methods>
+                    <include name="US100208_Negative_Login"/>
+                </methods>
+            </class>
+            <class name="techproed.tests.smoktetests.Day22_PositiveLoginTest">
+                <methods>
+                    <include name="US100201_Admin_Login"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+</suite>
